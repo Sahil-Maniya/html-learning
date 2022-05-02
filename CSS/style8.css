@@ -1,0 +1,28 @@
+html{
+    font-size: 16px;  /*1 x font size of the root element (html)*/
+}
+
+
+
+body{
+    margin: 10px;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1rem;     
+    line-height:1.5; /*verticle spacing = line spcing*/                                    
+    letter-spacing: 0.5px;/* horizontal spaing = letter spacing*/                           
+    word-spacing: 1px; /* horizontal spacing =  word spacing*/
+     direction: rtl; 
+}
+h1{
+    margin: 3rem 0 3rem; /*trbl*/
+
+}
+p{
+    text-align:centers;                                                 /*formatig text*/
+    text-indent: 10rem; /*paragraph*/
+    text-decoration: underline gold;
+    text-transform: capitalize;
+    white-space: nowrap; /*text spacing*/
+    border: 3px solid blueviolet;
+    overflow: scroll;
+}

@@ -1,0 +1,174 @@
+   p {
+    padding: 20px;
+    border: 5px solid gold;
+    margin: 5px;
+  } 
+  html {
+    font-size: 62.5%;
+  }
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+
+  .box::before {
+    content: "Hello";
+  }
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    border: 10px solid gold;
+    padding: 5px;
+   margin: 50px; 
+    display: inline-block;
+  }
+  .box {
+    height: 200px;
+    width: 200px;
+    background-color: gold;
+    border: 5px solid red;
+    overflow: auto;
+  }
+  .box {
+    width: 15rem;
+    height: 100vh;
+    border-top: 3px solid orange;
+  }
+  body {
+    margin: 10px;
+    height: 200vh;
+  }
+  .boxes {
+    border: 3px solid crimson;
+    position: relative;
+  }
+  .box {
+    height: 100px;
+    width: 100px;
+  }
+  .box-one {
+    background-color: gold;
+  }
+  .box-two {
+    background-color: blue;
+    left: 2rem;
+    right: 2rem;
+    width: auto;
+  }
+  .box-three {
+    background-color: deeppink;
+  }
+.tweet{
+  border: 5px solid darkgrey;
+  overflow: hidden;
+}
+  .avatar {
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    float: left;
+    margin: 10px;
+  }
+  .clear{
+      clear: both;
+  }
+  .clearfix::after{
+   content: '';
+   display: block;
+   clear: both;
+  }
+      .container{
+        border: 10px solid black;
+        display: flex;
+        flex-direction:row;
+        justify-content: center; 
+        align-items: center;
+        height: 90vh;
+    }
+       
+        .box{
+            flex-basis: 15rem;
+            flex-grow: 1;
+            flex-shrink:1;
+            flex: 1 1 15rem;
+        height: 5rem;
+        width: 5rem;
+        background-color: gold;
+        margin: 10px;
+    }
+    .box-one{
+        align-self: center;
+        flex-basis: 25rem; 
+    } 
+   .container{
+    display: grid;
+    border: 3px solid lightgray;
+     grid-template: 100px auto 100px / 30% 70%;  /* rows, colums  fr(fractial)*/
+     grid-template-areas: "header    header"
+                          "saidebar  main"
+                          ".         footer";  
+   
+   gap: 10px 20px;   /*row, colum*/
+   height: 100vh;/* vh(view port hight)*/
+  }
+ .box-one{
+  grid-column: 1/3;
+  grid-area: "header";
+
+}
+.box-four{
+  grid-column: 2;
+  grid-area: "footer";
+}
+
+  
+ 
+   .box{
+    background-color: yellow;
+  }
+  .first{
+    visibility: hidden;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .box{
+    background-color: gold;
+    padding: 5px;
+  }
+  .box:nth-child(2){
+    background-color: blue;
+  }
+
+
+  @media screen and (min-width: 600px)    {
+    .container{
+      flex-direction: row;
+    }
+    
+  }
+  @media screen and (min-width: 900px)  {
+     .container{
+      flex-direction: row;
+     }
+    .box{
+      background: brown;
+    }
+    
+  }  
+
+
+
+
+  @media print {
+    body{
+      font-size: 12pt;
+    }
+    .box{
+      padding: 0.5cmS;
+    }
+  } 

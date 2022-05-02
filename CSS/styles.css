@@ -1,0 +1,90 @@
+body{
+    margin: 30px;
+}
+#products ~ p{
+    color: burlywood;
+}
+article p:first-of-type{
+    font-size: 140%;
+    font-style: italic;
+    
+}
+article :last-of-type {
+    font-weight: bold;
+}
+ul li:nth-child(1){
+    color: deeppink;
+}
+a:visited,
+a:Link{
+    color: darkgoldenrod;
+}
+a:hover,
+a:focus{
+    color: deeppink;
+}
+p:nth-child(2){
+    color: black;
+}
+p::first-line{
+    font-weight: bold;
+}
+::selection{
+    background-color: pink;
+} 
+p::after{
+    content:"...";
+    display: block;
+}
+h1{
+    color: dodgerblue 
+}
+.highlight{
+    color: deeppink;
+}
+#products{
+    color: green;
+}
+.highlight #products{
+    color: gold;
+}
+.featured,.sams #product{
+    color: red;
+}
+p{
+   color: dodgerblue;
+   border: 1px solid black;
+}
+strong{
+    color: initial;
+    border: 1px solid inherit ;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background:red;
+    border:dotted 10px darkblue;
+    border-width:10px,20px,10px,20px;     /*trbl*/
+    box-shadow: 0 0 30px;
+}
+h1{
+    color: gold;
+    text-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+}
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: bold;
+    background-color: lightgray;
+  }
+p{
+      padding: 10px 20px;
+      border: 5px solid gold;
+  }
+  p {
+    padding: 20px;
+    border: 5px solid gold;
+    margin: 5px;
+  }

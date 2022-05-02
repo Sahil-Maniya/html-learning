@@ -1,0 +1,76 @@
+.box {
+background-color: gold;
+}
+.p{
+    color: aliceblue;
+    text-align: right;
+    margin: 50px;
+ } 
+ 
+ 
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/opensans/opensans-regular-webfont.woff2') format('woff2'),
+         url('fonts/opensans/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/opensans/opensans-bold-webfont.woff2') format('woff2'),
+         url('fonts/opensans/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+
+}
+html{
+    font-size: 16px;  /*1 x font size of the root element (html)*/
+}
+
+
+
+body{
+    margin: 10px;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1rem;  /* 1 rem = 1x16(html - font size )*/
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{                                                                        /*sizing fonts*/
+    
+    font-size: 4.209rem; /*4.209 rem = 4.209x16(html - font size) = 67.34px*/     
+}
+h2{
+    font-size: 3.157rem;/*3.157rem= 3.157x16(html - font size) =50.52px*/
+}
+h3{
+    font-size: 2.369rem;/*2.369rem= 2.369x16(html - font size)=37.90px*/
+}
+h4{
+    font-size: 1.777rem;/*1.777rem= 1.777x16(html - font size)=28.43px*/
+}
+h5{
+    font-size:1.333rem ;/*1.333rem= 1.333x16(html - font size=21.33px*/
+}
+h6{
+    font: size 1rem; /*1rem= 1x16(html - font size= 16px)*/
+}
+@media screen and (min-width : 400px) {
+    html{
+    font-size : 20px;
+    }
+}
+p{
+    font-weight: bold;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444444;
+}
+
