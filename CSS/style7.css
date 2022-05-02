@@ -16,10 +16,6 @@ background-color: gold;
     font-style: normal;
 
 }
-
-
-
-
 @font-face {
     font-family: 'opensans';
     src: url('fonts/opensans/opensans-bold-webfont.woff2') format('woff2'),
