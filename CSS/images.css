@@ -17,3 +17,11 @@ img{
 .meal{
   width: 400px;
 }
+body{
+  background:url(../CSS/images/images/constellation.svg);
+}
+
+
+.ufo{
+  width: 100px;
+}

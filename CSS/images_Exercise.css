@@ -1,0 +1,18 @@
+body{
+    background: url(../CSS/images/photo.jpg);
+}
+h1{
+ color: white;
+ font-variant: normal;
+ text-align: center;
+ justify-content: center;
+ text-decoration: dotted;
+ margin: 150px;
+ font-family: 'Poppins', sans-serif;
+}
+p{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 10px;
+}

@@ -17,16 +17,36 @@
     <img src="CSS/images/images/saturn.png" alt="" />
     <img src="CSS/images/images/ufo.png" alt="" />
     <img src="CSS/images/images/meal.jpg" alt="" /
-    <img src="CSS/images/images/meal@2x.jpg" alt="" class="meal" />-->
+    <img src="CSS/images/images/meal@2x.jpg" alt="" class="meal" />
     <img
       src="CSS/images/images/meal.jpg"
       alt="A Bowl of salmon and curry"
       class="meal"
       srcset="
-        CSS/images/images/meal.jpg    1x,
+        CSS/images/images/meal.jpg,1x
         CSS/images/images/meal@2x.jpg 2x,
-        CSS/images/images/meal@3x.jpg 3x
-      "
-    />
+        CSS/images/images/meal@3x.jpg 3x"/>
+    <img src="CSS/images/images/meal.webp" alt="" />
+    <img src="CSS/images/images/meal.jpg" alt="" />
+    <picture>
+      <source
+        type="CSS/images/images/webp"
+        srcset="CSS/images/images/meal.webp"
+      />
+      <source
+        type="CSS/images/images/jpg"
+        srcset="CSS/images/images/meal.jpg"
+      />
+      <img src="CSS/images/images/meal.jpg" alt="A bowl ofsalmon and curry" />
+    </picture>
+    <picture>
+      <source
+        media="(max-width:500px)"
+        srcset="CSS/images/images/meal-cropped.jpg"
+      />
+      <source media="(min-width:501px)" srcset="CSS/images/images/meal.jpg" />
+      <img src="CSS/images/images/meal.jpg" alt="A bowl of salmon and curry" />
+    </picture>-->
+    <img class="ufo" src="CSS/images/images/ufo.svg" alt="" />
   </body>
 </html>
