@@ -1,10 +1,19 @@
-body{
+/*body{
   background: url(../CSS/images/images/bg-sanfrancisco.jpg);
   background-repeat: no-repeat;
   background-size:cover;
-  background-attachment:fixed;
-  height: 300vh;
-}
+  background-attachment:fixed; 
+  height: 1000vh;
+ } 
 img{
   width: 100vw;
+}
+img{
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+.meal:hover{
+  filter:contrast(200%);
+}*/
+.meal{
+  width: 400px;
 }
