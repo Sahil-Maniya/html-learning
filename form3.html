@@ -15,16 +15,90 @@
     <form>
       <div>
         <label for="name">Name </label>
-        <input id="name" type="number" />
+        <input id="name" type="name" />
       </div>
       <div>
         <label for="email">E-mail </label>
         <input id="email" type="email" />
       </div>
       <div>
+        <!-- datalist -->
+        <datalist id="contries">
+          <option data-value="1">Australia</option>
+          <option>Canada</option>
+          <option>India</option>
+          <option>United States</option>
+        </datalist>
+      </div>
+      <div>
+        <select>
+          <!-- drop down list       -->
+
+          <optgroup label="front-end courses">
+            <option value="">Select The Courses</option>
+            <option value="1">HTML</option>
+            <option value="2">CSS</option>
+            <option value="3">JAVASCRIPT</option>
+            <option value="4">JAVA</option>
+          </optgroup>
+          <optgroup label="back-end courses">
+            <option value="1">GEt</option>
+            <option value="2">C++</option>
+            <option value="3">C</option>
+          </optgroup>
+        </select>
+      </div>
+      <div>
+      <legend>Hobbies</legend>
+      </div>
+      <div>
+        <input type="checkbox"  id="Sing"/>
+        <label class="label-inline" for="Sing">Sing</label>
+      </div>
+      <div>
+      <input type="checkbox"  id="Dance"/>
+        <label class="label-inline" for="Dance">Dance</label>
+      </div>
+      <div>
+         <input type="checkbox"  id="read"/>
+        <label class="label-inline" for="read">Read</label>
+      </div>
+      <div>
+      <legend>Gender</legend>
+      </div>
+      <div>
+        <input type="radio" id="male" name="membership"/>
+        <label class="label-inline" for="male">Male</label>
+      </div>
+      <div>
+        <input type="radio" id="female" name="membership">
+        <label  class="label-inline"  for="female">Female</label>
+      </div>
+      <div>
+        <input type="range" min="0" max="100" value="90"/>
+      </div>
+      <div>
+        <input type="file" accept="jpg"/>
+      </div>
+      <div>
+          <section>
+        <h2>Billing Address</h2>
+        <input type="text">
+        <input type="text">
+        <input type="text">
+          </section>      
+      </div>
+      <div>
+        <input type="hidden" name="cource-id" value="HTML"/>
+      </div>
+      <div>
         <button type="submit">Rejistor</button>
         <button type="reset">clear</button>
       </div>
+       
+   
     </form>
   </body>
+</html>
+
 </html>
