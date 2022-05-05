@@ -3,6 +3,12 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.5;
   padding: 1rem;
+  margin: 10px;
+}
+.pleasesignin{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .form-group {
   margin: 1rem;
