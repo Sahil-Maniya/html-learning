@@ -12,10 +12,14 @@
     />
   </head>
   <body>
-    <form action="https://formspree.io/f/{form_id}" method="post">
-      <input type="text" placeholder="Name" />
-      <input type="text" placeholder="Email" />
-      <input type="number" placeholder="Number" />
+    <form action="https://formspree.io/f/mayvlggv" method="POST">
+      <input type="text" placeholder="name" name="Name" />
+      <input type="email" placeholder="Email" name="Email" />
+      <input type="number" placeholder="Number" name="Number" />
+      <label>
+        Your file:
+        <input type="file" name="upload" />
+      </label>
       <button type="submit">Submit</button>
     </form>
   </body>

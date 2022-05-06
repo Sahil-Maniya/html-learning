@@ -1,0 +1,31 @@
+body{
+    transform: rotate(-5deg);
+    
+
+    width: 350px;
+}
+
+
+
+p{
+width: 350px;
+}
+h1{
+    float: left;  
+}
+img{
+border-radius: 1000px;
+border-color: white;
+}
+h1,img{
+    color:white;
+}
+.card{
+    background-color: #669296;
+    width: 350px;
+    border-radius: 10px;
+    
+}
+body:hover{
+    box-shadow: 0 0 5px 0.75px gold;
+}

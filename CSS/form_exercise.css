@@ -4,6 +4,9 @@ body {
   line-height: 1.5;
   padding: 1rem;
   margin: 10px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 .pleasesignin{
   text-align: center;

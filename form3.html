@@ -12,39 +12,38 @@
     />
   </head>
   <body>
-    <form>
+    <form action=https://formspree.io/f/mayvlggv method="POST">
       <div>
         <label for="name">Name </label>
-        <input id="name" type="name" />
+        <input id="name" type="name" name="name" />
       </div>
       <div>
         <label for="email">E-mail </label>
-        <input id="email" type="email" />
+        <input id="email" type="email" name="email" />
       </div>
       <div>
-        <!-- datalist -->
+        <label >Contries</label>
+        <input list="contries" name="country" id="country">
         <datalist id="contries">
-          <option data-value="1">Australia</option>
-          <option>Canada</option>
-          <option>India</option>
-          <option>United States</option>
+          <option value="Australia">Australia</option>
+          <option value="Canada">Canada</option>
+          <option value="India">India</option>
+          <option value="United States">United States</option>
         </datalist>
       </div>
       <div>
-        <select>
-          <!-- drop down list       -->
-
+        <select id="cource" name="cource">
           <optgroup label="front-end courses">
             <option value="">Select The Courses</option>
-            <option value="1">HTML</option>
-            <option value="2">CSS</option>
-            <option value="3">JAVASCRIPT</option>
-            <option value="4">JAVA</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="JAVASCRIPT">JAVASCRIPT</option>
+            <option value="JAVA">JAVA</option>
           </optgroup>
           <optgroup label="back-end courses">
-            <option value="1">GEt</option>
-            <option value="2">C++</option>
-            <option value="3">C</option>
+            <option value="Get">Get</option>
+            <option value="c++">C++</option>
+            <option value="C">C</option>
           </optgroup>
         </select>
       </div>
@@ -52,44 +51,39 @@
       <legend>Hobbies</legend>
       </div>
       <div>
-        <input type="checkbox"  id="Sing"/>
+        <input type="checkbox"  id="sing" name="hobby" value="sing"/>
         <label class="label-inline" for="Sing">Sing</label>
       </div>
       <div>
-      <input type="checkbox"  id="Dance"/>
+      <input type="checkbox"  id="Dance" name="hobby" value="dance"/>
         <label class="label-inline" for="Dance">Dance</label>
       </div>
       <div>
-         <input type="checkbox"  id="read"/>
+         <input type="checkbox"  id="read" name="hobby" value="read"/>
         <label class="label-inline" for="read">Read</label>
       </div>
       <div>
       <legend>Gender</legend>
       </div>
       <div>
-        <input type="radio" id="male" name="membership"/>
+        <input type="radio" id="male" name="Gender" value="male"/>
         <label class="label-inline" for="male">Male</label>
       </div>
       <div>
-        <input type="radio" id="female" name="membership">
+        <input type="radio" id="female" name="Gender" value="female">
         <label  class="label-inline"  for="female">Female</label>
       </div>
       <div>
-        <input type="range" min="0" max="100" value="90"/>
+        <input type="range" min="0" max="100" value="90" name="range"/>
       </div>
       <div>
-        <input type="file" accept="jpg"/>
+        <input type="file" accept="images.jpg" name="file"/>
       </div>
       <div>
           <section>
         <h2>Billing Address</h2>
-        <input type="text">
-        <input type="text">
-        <input type="text">
+        <input type="text" name="billing address">
           </section>      
-      </div>
-      <div>
-        <input type="hidden" name="cource-id" value="HTML"/>
       </div>
       <div>
         <button type="submit">Rejistor</button>
