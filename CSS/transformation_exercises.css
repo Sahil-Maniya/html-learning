@@ -1,17 +1,15 @@
 body{
     transform: rotate(-5deg);
-    
-
+   margin-right: 650px;
+   margin-top: 500px;
+   float: right;
     width: 350px;
 }
-
-
-
 p{
 width: 350px;
 }
 h1{
-    float: left;  
+   float: left;
 }
 img{
 border-radius: 1000px;
@@ -21,11 +19,22 @@ h1,img{
     color:white;
 }
 .card{
-    background-color: #669296;
+    display: block;
+     transition: transform2s;
     width: 350px;
     border-radius: 10px;
     
 }
 body:hover{
-    box-shadow: 0 0 5px 0.75px gold;
+    box-shadow: 10px 10px 20px 20px dodgerblue ;
+    border-radius: 10px;
+    transform: scale(1.5);
+    transform: rotate(0);
+}
+.span{
+    background-color: #669296; 
+    border-radius: 10px;
+}
+@media screen {
+    
 }

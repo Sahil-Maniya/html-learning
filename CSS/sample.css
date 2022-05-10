@@ -1,0 +1,7 @@
+:root{
+    --color-blue: #0f0f0f;
+}
+
+p{
+    background-color: var(--color-blue);
+}
