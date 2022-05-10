@@ -1,0 +1,26 @@
+table,
+td,
+th
+  {
+    border: 1px solid  #c4dcf3;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    padding: 10px;
+    border-left: 0px;
+    border-right: 0px;
+   
+  }
+  tr:nth-child(even)
+  {
+    background-color: #eef7ff ;
+
+  }
+
+tfoot {
+    text-align: left;
+
+}
+.container{
+    background-color:  #427fef;
+    color: white;
+}

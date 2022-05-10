@@ -1,0 +1,7 @@
+.box{
+    box-shadow: 10px 10px  lightgrey;
+    background-color: tomato;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px ;
+}
