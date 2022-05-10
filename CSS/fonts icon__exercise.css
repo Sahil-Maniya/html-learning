@@ -1,0 +1,17 @@
+.container{
+    background:  #2a2138;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    line-height: 20%;
+    width: 100%;
+}
+div:hover{
+    color:#221a2e;
+}
+@media screen and (min-width=400px) {
+    body{
+        width: 20%;
+    }
+    
+}
