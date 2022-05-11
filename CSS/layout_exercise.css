@@ -1,18 +1,21 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-  
 }
-.container{
-    width: 100px;
-    margin-right: 500px;
+nav ul{
+    display: flex;
+    flex-direction: column;
     background-color: black;
-    color: white;
+    width: 500px;
     text-align: center;
+    padding: 1.5rem;
 }
-
-@media screen and(max-width : 768px){
-    .container{
-        width: 500px;
+ nav ul:hover{
+    color: white;
+}
+ @media screen and (max-width:600px){
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
     }
     
-}
+} 
